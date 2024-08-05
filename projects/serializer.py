@@ -3,7 +3,7 @@
 from rest_framework import serializers
 from .models import Project
 
-class TaskSerializer(serializers.ModelSerializer):
+class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Project
         #campos que desea convertir
